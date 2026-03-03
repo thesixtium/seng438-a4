@@ -62,7 +62,7 @@ The only testing tool to be used in this part, aside from JUnit is Pitest [4], a
 
 Pitest streamlines the process of creating mutants by providing a mutant generation engine based on many defined mutation operators. Pitest provides functionality to facilitate the creation of mutants as well as running unit tests on those mutants in order to calculate a mutation score.
 
-As discussed in the class, mutation operators in Java object-oriented software are generally of two types: method-level [1] and class-level [2]. Some of the tools (e.g. Pitest) by default employs only mutation operators at the method-level. You need to enable the class-level mutators before starting your tests.
+As discussed in the class, mutation operators in Java object-oriented software are generally of two types: method-level [2] and class-level [1]. Some of the tools (e.g. Pitest) by default employs only mutation operators at the method-level. You need to enable the class-level mutators before starting your tests.
 
 ## 2.3 SYSTEM UNDER TEST
 
@@ -114,7 +114,7 @@ Add the JFreeChart source code given in assignment 4 to your project. Add all li
 As a practice, run mutation tests on the test cases provided under `org.jfree.data` in the test folder of _JFreeChart_Lab4_ project. Record all results. (Right click on the `org.jfree.data` and then run as PIT Mutation Test)
 
 
-1.  Note that in order to run mutation tools successfully, your test cases must pass (all green). If there is any defect that is found by the tests (error/failure), they need to be fixed in the code before running the mutation tool.
+1.  Note that in order to run mutation tools successfully, all your test cases must pass (all green) when run as JUnit first. If any test fails or there is a defect in the test code, running Pitest will throw an exception—fix any failing tests or defects before running the mutation tool.
 
 ![](media/6-Run-Junit.png)
 
