@@ -72,9 +72,9 @@ Similar to assignments 2 and 3, the system to be tested for this part is JFreeCh
 
 ### 2.4.1 INSTALL Pitest
 
-1.  In your Eclipse select Help, go to Eclips Marketpalce, and find Pitest Plugin by copy and paste the following link: https://marketplace.eclipse.org/content/pitclipse
+1.  In your Eclipse select Help, go to Eclipse Marketplace, and find Pitest Plugin by copy and paste the following link: https://marketplace.eclipse.org/content/pitclipse
 
-2.  Follow the installation process. Note: Run Eclipse “as administrator” in Windows, click on preferences, on the left side click on Pitest and then select Mutators, choose All mutators, and finally apply and close. If you can not find preferences trough window tab you can simply look for it in the search (up right corner). The latest **version is Pitclips 2.2.0**
+2.  Follow the installation process. Note: Run Eclipse “as administrator” in Windows, click on preferences, on the left side click on Pitest and then select Mutators, choose All mutators, and finally apply and close. If you cannot find preferences through window tab you can simply look for it in the search (up right corner). The latest **version is Pitclipse 2.2.0**
 
 ![](./media/2-Preferances.png)
 
@@ -83,7 +83,7 @@ Similar to assignments 2 and 3, the system to be tested for this part is JFreeCh
 ![](./media/1-Mutators.png)
 
 
-3.  If you could not find the Pitclipse in your Eclipse Marketplace please do the followings:
+3.  If you could not find the Pitclipse in your Eclipse Marketplace please do the following:
 
     1.  Start Eclipse, then select Help \> Install New Software.
 
@@ -99,7 +99,7 @@ Note that, Pitest by default employs only mutation operators at the method-level
 
 ## 2.5 INSTRUCTIONS
 
-## 2.5.1 Mutation Testing
+### 2.5.1 Mutation Testing
 
 You should run Pitest on your own test suites `DataUtilitiesTest` and `RangeTest` from assignment 3.
 
@@ -107,14 +107,14 @@ You should run Pitest on your own test suites `DataUtilitiesTest` and `RangeTest
 
 Add the JFreeChart source code given in assignment 4 to your project. Add all libraries into your project. Add the given sample test codes (provided in this assignment) into your project.
 
-## 2.5.3 Add your own Test Suites from lab 3 into your new project.
+### 2.5.3 Add your own Test Suites from lab 3 into your new project.
 
 ### 2.5.4 Run Mutation Testing on the sample test cases
 
-As a practice, run mutation tests on the test cases provided under `org.jfree.data.junit` in the test folder of _JFreeChart_Lab4_ project. Record all results. (Right click on the `org.jfree.data.junit` and then run as PIT Mutation Test)
+As a practice, run mutation tests on the test cases provided under `org.jfree.data` in the test folder of _JFreeChart_Lab4_ project. Record all results. (Right click on the `org.jfree.data` and then run as PIT Mutation Test)
 
 
-1.  Note that in order to run mutation tools successfully, your test cases must pass (all green). For example, the `DataUtilitiesTes` test case has error in `org.jfree.data.junit`, running Pitest you will get exception. If there is any defect that is found by the tests (error/failure), they need to be fixed in the code before running the mutation tool.
+1.  Note that in order to run mutation tools successfully, your test cases must pass (all green). If there is any defect that is found by the tests (error/failure), they need to be fixed in the code before running the mutation tool.
 
 ![](media/6-Run-Junit.png)
 
@@ -123,7 +123,7 @@ As a practice, run mutation tests on the test cases provided under `org.jfree.da
 ![](media/8-PIT-Mutation-Test.png)
 
 
-2.  Expect that mutation testing of some classes might take long time. Let the tool runs and do not terminate it until the test ends and you get the mutation testing reports.
+2.  Expect that mutation testing of some classes might take long time. Let the tool run and do not terminate it until the test ends and you get the mutation testing reports.
 
 
 > ![](./media/3-PIT-Summary.png)
@@ -166,19 +166,19 @@ The main objective of this part of the assignment is to familiarize students wit
 
 In this assignment, you will mainly use Selenium web-interface testing tool to test one of the following websites.
 
-- Home Depot page (https://www.homedepot.ca)
+- Walmart Page (https://www.walmart.ca/en)
 
-- Gap Page (https://www.gapcanada.ca/)
+- ‌Banana Republic Page (https://bananarepublic.gapcanada.ca/?ssiteID=GAP)
 
-- Real Canadian Superstore Page (https://www.realcanadiansuperstore.ca)
+- Canadian Tire Page (https://www.canadiantire.ca/en.html)
 
 You will also explore this alternative tool: Sikulix (http://sikulix.com/quickstart/)
 
 ## 3.3 INSTRUCTIONS
 
-1.  Make yourself familiarize with Selenium IDE plug-in and how to run record and replay (playback) with Selenium. You may use these recourses and/or others online.
+1.  Make yourself familiar with Selenium IDE plug-in and how to run record and replay (playback) with Selenium. You may use these resources and/or others online. The Chrome extension has been removed (This extension is no longer available). You can use Firefox version.
 
-    1.  <http://www.seleniumhq.org/projects/ide/>
+    1.  <https://www.selenium.dev/>
 
     2.  <https://www.guru99.com/install-selenuim-ide.html>
 
@@ -192,7 +192,7 @@ You will also explore this alternative tool: Sikulix (http://sikulix.com/quickst
 
     1. Each functionality must be tested with different possible test data. For example, Login with valid, invalid user.
 
-4.  **Verify** the output of the tests by adding verification check points.Verifications must be done automatically unless the tool does not support automated verification in that specific context, which in that case report that as disadvantages of the tool and design another test that can be automated.
+4.  **Verify** the output of the tests by adding verification check points. Verifications must be done automatically unless the tool does not support automated verification in that specific context, which in that case report that as disadvantages of the tool and design another test that can be automated.
 
 5.  **Execute** your recorded scripts to test the system.
 
@@ -217,13 +217,13 @@ The objectives for the demo are a) Preparing you for technical presentations, b)
 It is mandatory for all team members to attend the demo session and explain the TAs in the lab what they have done for this assignment. You are expected to almost finish the assignment by the lab hour. All the team members should attend the lab. The TAs will go through the groups and each group must demonstrate one mutant (generated by PIT) that is killed by the original test suite and one that is not. Different student should demonstrate different mutants.
 Each student should also run a recorded test case with Selenium IDE.
 
-**NOTE1: Student who miss the demo session or are unable to demo what is detailed above are considered as less- contributors and may lose up to the entire assignment 4’s mark.**
+**NOTE1: Students who miss the demo session or are unable to demo what is detailed above are considered as less-contributors and may lose up to the entire assignment 4’s mark.**
 
 **NOTE2: You still have time to further improve your test suite, after the demo session and before the deadline.**
 
 ## 4.2 Lab report and Test suites (85%)
 
-Students will be required to submit a report on their work in the lab as a group. To be consistent, please use the template markdown file “Assignment4-ReportTemplate.md” provided online under the Assignment 4 folder. If desired, feel free to rename the sections, as long as the headings are still descriptive and accurate.
+Students will be required to submit a report on their work in the lab as a group. To be consistent, please use the template markdown file “seng438-a4-team_number.md” provided online under the Assignment 4 folder. If desired, feel free to rename the sections, as long as the headings are still descriptive and accurate.
 
 **NOTE3: include folder together with your report. One containing Part 1’s final test suite, another containing Selenium test scripts.**
 
