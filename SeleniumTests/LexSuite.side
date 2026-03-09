@@ -1,0 +1,244 @@
+{
+  "id": "8651249c-63f3-4945-b834-f5cc5bd074f1",
+  "version": "2.0",
+  "name": "SNEG438Assignment4",
+  "url": "https://www.walmart.ca/en",
+  "tests": [{
+    "id": "78485f24-3bbd-467d-803e-29a8d12cb4b2",
+    "name": "Change Language",
+    "commands": [{
+      "id": "b1eb72b6-2040-4121-b27a-e7e123ee45dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9aa324d-d6dd-4634-a055-b2e707529610",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1292x1392",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b8f67bf-9f78-4aac-a805-717a43d295e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pointer > .ml2 > .b",
+      "targets": [
+        ["css=.pointer > .ml2 > .b", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li/div/button/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/button/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebc4a7ed-f11c-4892-ab59-c9a40f528a2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(2) > .w_h7yu > .w_y2E1",
+      "targets": [
+        ["css=.flex:nth-child(2) > .w_h7yu > .w_y2E1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li/div/div/div/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "061e2bea-5675-4f2b-a2df-2297e3375fc6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Magasinage en ligne sur Walmart.ca : magasinez des articles à bas prix quotidien au Canada!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ebee1b6-3311-4a25-ba3b-514306e7f832",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pointer > .ml2 > .b",
+      "targets": [
+        ["css=.pointer > .ml2 > .b", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li/div/button/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/button/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf8a61d5-80e5-4e8f-847b-7a0c429b3ae2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) > .w_h7yu > .w_y2E1",
+      "targets": [
+        ["css=.flex:nth-child(1) > .w_h7yu > .w_y2E1", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li/div/div/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "036610b0-a5a9-4010-ade0-e057fde585d1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Online Shopping Canada: Everyday Low Prices at Walmart.ca!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c598fa3b-7f5f-4831-a029-62b77344298d",
+    "name": "New Phone Number Goes To Signup Page",
+    "commands": [{
+      "id": "a423743f-ea63-4396-9938-c18a132dcecf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.ca/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9b3b2c1-da69-45ac-a5b2-831086449300",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1292x1392",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c57991c-df19-457d-85e3-b39e911b0459",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=linkcard-Shop-AdjustableCardCarousel-contentZone11",
+      "targets": [
+        ["id=linkcard-Shop-AdjustableCardCarousel-contentZone11", "id"],
+        ["css=section:nth-child(2) > #linkcard-Shop-AdjustableCardCarousel-contentZone11", "css:finder"],
+        ["xpath=//a[@id='linkcard-Shop-AdjustableCardCarousel-contentZone11']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[2]/div/div/div/div/div/div/ul/li/div/div/section/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/en/browse/toys/stuffed-animals-plush/10011_20098?icid=home_page_toys_easter_toys_d_174930_LYSLH6W1VJ')])[2]", "xpath:href"],
+        ["xpath=//section/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d29ac699-10bb-4124-bee0-375bbc6938fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=linkcard-Shop-AdjustableCardCarousel-contentZone11",
+      "targets": [
+        ["id=linkcard-Shop-AdjustableCardCarousel-contentZone11", "id"],
+        ["css=section:nth-child(2) > #linkcard-Shop-AdjustableCardCarousel-contentZone11", "css:finder"],
+        ["xpath=//a[@id='linkcard-Shop-AdjustableCardCarousel-contentZone11']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[2]/div/div/div/div/div/div/ul/li/div/div/section/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/en/browse/toys/stuffed-animals-plush/10011_20098?icid=home_page_toys_easter_toys_d_174930_LYSLH6W1VJ')])[2]", "xpath:href"],
+        ["xpath=//section/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e8f33e6-b262-4885-89c8-f1ae27d55146",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m",
+      "targets": [
+        ["id=linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m", "id"],
+        ["css=#linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m", "css:finder"],
+        ["xpath=//a[@id='linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[3]/div/div/section/div/div/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/en/browse/household-supplies/6000195358079?facet=fulfillment_speed%3ATomorrow&icid=home_page_household_supplies_and_pantry_spring_cleaning_household_supplies_d_174939_QPWVCDOHZS')])[2]", "xpath:href"],
+        ["xpath=//main/div/div[2]/div/div[3]/div/div/section/div/div/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61763e8-ea22-4747-8e57-8b3fe44199a7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m",
+      "targets": [
+        ["id=linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m", "id"],
+        ["css=#linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m", "css:finder"],
+        ["xpath=//a[@id='linkcard-Shop-GridPOVBanners-smallBanner-contentZone19-sU8fwE9m']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[3]/div/div/section/div/div/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/en/browse/household-supplies/6000195358079?facet=fulfillment_speed%3ATomorrow&icid=home_page_household_supplies_and_pantry_spring_cleaning_household_supplies_d_174939_QPWVCDOHZS')])[2]", "xpath:href"],
+        ["xpath=//main/div/div[2]/div/div[3]/div/div/section/div/div/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd315e5b-605f-4315-95b1-0969f822c24b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h2",
+      "targets": [
+        ["css=.h2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li[3]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84b84c69-4f7e-4ab0-9118-f01e5683c4f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in or create account",
+      "targets": [
+        ["linkText=Sign in or create account", "linkText"],
+        ["css=.pa4 > .w_eEg0", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in or create account')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://identity.walmart.com/en/account/login?tp=GIC&client_id=ebc4bf34-398f-4ee7-8e0c-91e8ea508158&redirect_uri=https%3A%2F%2Fwww.walmart.ca%2Faccount%2FverifyToken&scope=openid+email+offline_access&tenant_id=qxjed8&state=%2Fen&code_challenge=nChfFh8jDNg_0LhnJvP7CRfaUpM_GGQVlUfAKCsuZvs')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in or create account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02f5f733-445b-4622-ad94-35d496e468b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Phone or Email",
+      "targets": [
+        ["name=Phone or Email", "name"],
+        ["css=.pa0", "css:finder"],
+        ["xpath=//input[@name='Phone or Email']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-in-form']/div/section/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d6a3991-589b-479f-a9b5-c00f2257ed51",
+      "comment": "",
+      "command": "type",
+      "target": "name=Phone or Email",
+      "targets": [
+        ["name=Phone or Email", "name"],
+        ["css=.flex-grow-1", "css:finder"],
+        ["xpath=//input[@name='Phone or Email']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-in-form']/div/section/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/input", "xpath:position"]
+      ],
+      "value": "(587) 577-9945"
+    }, {
+      "id": "ae5a5f48-ea2a-43d5-aa4a-28e35fe5e45f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=Phone or Email",
+      "targets": [
+        ["name=Phone or Email", "name"],
+        ["css=.flex-grow-1", "css:finder"],
+        ["xpath=//input[@name='Phone or Email']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-in-form']/div/section/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2a254d8a-35d1-4dd8-9ba1-4a7e03825f0e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.f3",
+      "targets": [
+        ["css=.f3", "css:finder"],
+        ["xpath=//div[@id='__next']/div/section/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Create your Walmart account')]", "xpath:innerText"]
+      ],
+      "value": "Create your Walmart account"
+    }]
+  }],
+  "suites": [{
+    "id": "4e1b5aeb-0f96-42c4-b790-309132ece137",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["78485f24-3bbd-467d-803e-29a8d12cb4b2", "c598fa3b-7f5f-4831-a029-62b77344298d"]
+  }],
+  "urls": ["https://www.walmart.ca/en"],
+  "plugins": []
+}
