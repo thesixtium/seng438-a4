@@ -1,0 +1,228 @@
+{
+  "id": "2e72fef3-6eaf-4ba1-a711-3d26ba104c3e",
+  "version": "2.0",
+  "name": "A4",
+  "url": "https://www.walmart.ca",
+  "tests": [{
+    "id": "168515af-3162-477e-84db-21d0ce80d31b",
+    "name": "Reorder Function",
+    "commands": [{
+      "id": "c6a1def0-dd72-4ba4-b0ed-db771ae278d5",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c98ce9b5-02fd-477a-a119-a0872e8a4dd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1674x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b0ce4eb-825d-4abd-b038-81744358847f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dn:nth-child(2) .b",
+      "targets": [
+        ["css=.dn:nth-child(2) .b", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li[2]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dab5302-015c-4d19-9d7d-dd3d38cd9fe6",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.dn:nth-child(2) .b",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "8a0524d0-d1ed-4d21-b8f0-d49fa13988b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Reorder",
+      "targets": [
+        ["linkText=Reorder", "linkText"],
+        ["css=.desktop-header-flyout-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Reorder')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/en/my-items')])[2]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51808cae-904c-4aea-9e3f-7129c2eaec91",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ld_EG",
+      "targets": [
+        ["css=.ld_EG", "css:finder"],
+        ["xpath=//div[@id='maincontent']/main/section/div/section/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'My Items')]", "xpath:innerText"]
+      ],
+      "value": "My Items"
+    }, {
+      "id": "784f88d7-bcee-4573-90b3-46313a82e789",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in or create account",
+      "targets": [
+        ["linkText=Sign in or create account", "linkText"],
+        ["css=.f5-l", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sign in or create account')])[2]", "xpath:link"],
+        ["xpath=//div[@id='maincontent']/main/section[2]/div/div/div/div/div/section/section/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?vid=oaoh&returnUrl=%2Fmy-items')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "050f0fcb-65dc-4d63-9458-b381876b0403",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "73a88cbf-d2a9-4be8-a69c-12e4483f5c7d",
+    "name": "Pickup Function",
+    "commands": [{
+      "id": "0754de05-9bd9-4a2a-9b20-8bb019ee6b7c",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e0a3923-2d18-4e41-b3f6-64e7bf941776",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1674x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "897e7b39-27f2-4e64-9e30-252787943bf6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.lh-copy-ns > span:nth-child(2)",
+      "targets": [
+        ["css=.lh-copy-ns > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='intent-banner-section']/button/div/div/span/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4999d05-2e6b-4bd5-bba8-6d78d16d30aa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.lh-copy-ns > span:nth-child(2)",
+      "targets": [
+        ["css=.lh-copy-ns > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='intent-banner-section']/button/div/div/span/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e45adef-77f4-4cc4-a89b-8a54be0cec12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content-start",
+      "targets": [
+        ["css=.content-start", "css:finder"],
+        ["xpath=//div[@id='intent-banner-section']/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc41784f-228a-4dd2-863f-855dad9e1343",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.content-start",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "c1b2fb56-0b09-4279-a4e0-345ffe914d31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ld-ChevronRight",
+      "targets": [
+        ["css=.ld-ChevronRight", "css:finder"],
+        ["xpath=//div[@id='gic-wrapper']/div/div[2]/section/div/div/div/div/div/div/div/div/button/div[2]/i", "xpath:idRelative"],
+        ["xpath=//button/div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54803b59-a6d3-4631-94a4-e22ad3b3bf8c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "381aae86-d8a4-4b74-bb03-66bad3cebd08",
+      "comment": "",
+      "command": "click",
+      "target": "id=3151-41f525a0-6be1-4b3c-a375-a1e3a567e21d",
+      "targets": [
+        ["id=3151-41f525a0-6be1-4b3c-a375-a1e3a567e21d", "id"],
+        ["css=#\\33 151-41f525a0-6be1-4b3c-a375-a1e3a567e21d", "css:finder"],
+        ["xpath=//input[@id='3151-41f525a0-6be1-4b3c-a375-a1e3a567e21d']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "409d576d-a65f-430f-9051-90633b4e2770",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=3151-41f525a0-6be1-4b3c-a375-a1e3a567e21d",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "404d16ae-468a-43cf-9a9f-a31317e5f6a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w_fNeq",
+      "targets": [
+        ["css=.w_fNeq", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29040595-c4a4-47ea-8193-8e3c75ba25fd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.w_fNeq",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45c161de-c206-459a-bfd9-f847da31f8fd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83d46416-8ef9-49aa-818c-c681a6d6c36b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "507743c6-c4de-4d87-aac5-83bd96e99f84",
+    "name": "Jane Test Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["73a88cbf-d2a9-4be8-a69c-12e4483f5c7d", "168515af-3162-477e-84db-21d0ce80d31b"]
+  }],
+  "urls": ["https://www.walmart.ca/"],
+  "plugins": []
+}
