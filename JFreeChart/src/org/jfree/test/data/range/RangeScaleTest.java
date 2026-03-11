@@ -1,4 +1,4 @@
-package org.jfree.data.test;
+package org.jfree.test.data.range;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
