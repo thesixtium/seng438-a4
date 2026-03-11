@@ -23,5 +23,10 @@
 	<classpathentry kind="lib" path="C:/Users/ajrbe/Documents/Git/seng438-a4/jfreechart-1.0.19/jfreechart-1.0.19/lib/swtgraphics2d.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="C:/Users/ajrbe/Documents/Git/seng438-a4/jfreechart-1.0.19/jfreechart-1.0.19/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajrbe/Documents/Git/seng438-a4/jfreechart-1.0.19/jfreechart-1.0.19/lib/Mockito/byte-buddy-1.12.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajrbe/Documents/Git/seng438-a4/jfreechart-1.0.19/jfreechart-1.0.19/lib/Mockito/byte-buddy-agent-1.12.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajrbe/Documents/Git/seng438-a4/jfreechart-1.0.19/jfreechart-1.0.19/lib/Mockito/mockito-core-4.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajrbe/Documents/Git/seng438-a4/jfreechart-1.0.19/jfreechart-1.0.19/lib/Mockito/mockito-junit-jupiter-4.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajrbe/Documents/Git/seng438-a4/jfreechart-1.0.19/jfreechart-1.0.19/lib/Mockito/objenesis-3.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
