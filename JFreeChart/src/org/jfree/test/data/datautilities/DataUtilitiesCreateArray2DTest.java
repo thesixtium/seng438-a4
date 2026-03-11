@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.jfree.data.DataUtilities;
 
-class DataUtilitiesCreateArray2DTest {
+public class DataUtilitiesCreateArray2DTest {
 
     @Test
     void testCreateNumberArray2DValid() {

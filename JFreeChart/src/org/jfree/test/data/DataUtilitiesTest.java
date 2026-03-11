@@ -6,11 +6,15 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectClasses({
-    GetCumulativePercentagesTests.class,
-    DataUtCreateNumArr2D.class,
-    CalculateColumnTotalTest.class,
-    DataUtilitiesRowTotalTest.class,
-    DataUtilitiesNumberArray.class,
-    CalcRowTotalWColTest.class
+	DataUtilitiesClone.class,
+	DataUtilitiesCreateArray2DTest.class,
+	DataUtCreateNumArr2D.class,
+	CalculateColumnTotalTest.class,
+	CalcRowTotalWColTest.class,
+	DataUtilitiesCreateArrayTest.class,
+	DataUtilitiesEqual.class,
+	DataUtilitiesNumberArray.class,
+	DataUtilitiesRowTotalTest.class,
+	GetCumulativePercentagesTests.class
 })
 public class DataUtilitiesTest {}

@@ -6,16 +6,25 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectClasses({
-    RangeCombineTest.class,
-    RangeConstrainTest.class,
-    RangeExpandTest.class,
-    Range_contains_test.class,
-    RangeEqualsTest.class,
-    ExpandToIncludeTest.class,
-    toStringTest.class,
-    GetLengthTest.class,
-    GetUpperBoundTest.class,
-    GetLowerBoundTest.class,
-    getCentralValueTest.class
+	RangeIntersectsDoubleTest.class,
+	RangeIntersectsRangeTest.class,
+	RangeHashCodeTest.class,
+	RangeEqualsTest.class,
+	RangeExpandTest.class,
+	RangeConstrainTest.class,
+	RangeCombineTest.class,
+	RangeCombineIgnoringNaNTest.class,
+	Range_contains_test.class,
+	OneDoubleArgRangeContstraintTest.class,
+	isNanRangeTest.class,
+	GetUpperBoundTest.class,
+	GetLengthTest.class,
+	getCentralValueTest.class,
+	ExpandToIncludeTest.class,
+	GetLowerBoundTest.class,
+	RangeScaleTest.class,
+	ThreeArgRangeShiftTest.class,
+	toStringTest.class,
+	TwoArgRangeShiftTest.class
 })
 public class RangeTest {}
