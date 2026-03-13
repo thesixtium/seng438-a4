@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.jfree.data.Range;
 import org.junit.jupiter.api.Test;
 
-public class toStringTest {
+class toStringTest {
 
 	@Test
 	void testToString() {

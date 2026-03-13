@@ -60,6 +60,13 @@ public class RangeCombineIgnoringNaNTest {
         assertEquals( expected, actual, "Range range1 combine with Range range1 to make Range range1" );
     }
 
+//    @Test
+//    public void combineIgnoringNaN_SameRange2() {
+//        Range expected = range7;
+//        Range actual = Range.combineIgnoringNaN( range7, range7 );
+//        assertEquals( expected, actual, "Range range1 combine with Range range1 to make Range range1" );
+//    }
+
     @Test
     public void combineIgnoringNaN_TouchingRangesInOrder() {
         Range expected = range3;

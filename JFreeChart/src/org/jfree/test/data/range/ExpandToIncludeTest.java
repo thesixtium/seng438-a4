@@ -6,7 +6,7 @@ import org.jfree.data.Range;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class ExpandToIncludeTest {	
+class ExpandToIncludeTest {	
 	private Range oldRange;
 	
 	@BeforeEach

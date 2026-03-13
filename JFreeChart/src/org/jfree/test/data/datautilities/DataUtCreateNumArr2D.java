@@ -45,4 +45,10 @@ public class DataUtCreateNumArr2D{
 		Number[][] createdNumbers=  DataUtilities.createNumberArray2D(arr);
 		assertEquals(Double.MAX_VALUE, createdNumbers[4][8].doubleValue(), 1e-9, "Expected value is max of double at end");
 	}
+	@Test
+	void testIncompleteSpecifications() {//test what happens if you don't specify number of columns in source
+		double [][] incmpArr= new double[2][];
+		Number[][] createdNumbers=  DataUtilities.createNumberArray2D(incmpArr);
+		assertEquals(incmpArr[0].length, createdNumbers[0].length, "Expected same number of columns");
+	}
 }

@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.jfree.data.Range;
 
-public class RangeIntersectsRangeTest {
+class RangeIntersectsRangeTest {
 
     @Test
     void testIntersectsRangeObject() {

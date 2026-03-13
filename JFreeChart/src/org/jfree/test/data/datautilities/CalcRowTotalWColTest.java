@@ -12,7 +12,7 @@ import org.jfree.data.Values2D;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class CalcRowTotalWColTest{
+class CalcRowTotalWColTest{
 
 	private Values2D values;
 

@@ -1,10 +1,10 @@
-package org.jfree.test.data.datautilities;
+package org.jfree.data.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.jfree.data.DataUtilities;
 
-public class DataUtilitiesCreateArray2DTest {
+class DataUtilitiesCreateArray2DTest {
 
     @Test
     void testCreateNumberArray2DValid() {
