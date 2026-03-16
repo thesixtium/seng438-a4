@@ -6,7 +6,7 @@ import org.jfree.data.Range;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class ExpandToIncludeTest {	
+public class ExpandToIncludeTest {	
 	private Range oldRange;
 	
 	@BeforeEach
@@ -16,31 +16,85 @@ class ExpandToIncludeTest {
 
 	@Test
 	void RangeIsNull_ShouldReturnValueNewRange() {
-		Range oldRange = null;
-		double value = 2.0;
-		Range newRange = new Range(2.0, 2.0);
-		assertEquals(newRange, Range.expandToInclude(oldRange, value));
-	}
-
-	@Test
-	void valueLessThanLowerBound() {
-		double value = 3.0;
-		Range newRange = new Range(3.0, 10);
-		assertEquals(newRange, Range.expandToInclude(oldRange, value));
-	}
-	
-	@Test
-	void valueLargerThanUpperBound() {
-		double value = 11;
-		Range newRange = new Range(5, 11);
-		assertEquals(newRange, Range.expandToInclude(oldRange, value));
+		double value = 3;
+		Range newRange = Range.expandToInclude(null, value);
+		
+		assertEquals(new Range(value, value), newRange);
+		assertEquals(value, newRange.getUpperBound());
+		assertEquals(value, newRange.getLowerBound());
+		
 	}
 	
 	@Test
 	void valueIsNotBiggerOrSmaller() {
 		double value = 7;
-		Range newRange = new Range(5, 10);
-		assertEquals(newRange, Range.expandToInclude(oldRange, value));
+		assertEquals(new Range(5, 10), Range.expandToInclude(oldRange, value));
+		assertEquals(5, oldRange.getLowerBound());
+		assertEquals(10, oldRange.getUpperBound());
+	}
+
+	@Test
+	void valueLessThanLowerBound() {
+		double value = 2;
+		Range newRange = Range.expandToInclude(oldRange, value);
+		assertEquals(new Range(2, 10), newRange);
+		assertEquals(value, newRange.getLowerBound());
+		assertEquals(10, newRange.getUpperBound());
+	}
+	
+	@Test
+	void valueLargerThanUpperBound() {
+		double value = 15;
+		Range newRange = Range.expandToInclude(oldRange, value);
+		assertEquals(new Range(5, 15), newRange);
+		assertEquals(5, newRange.getLowerBound());
+		assertEquals(value, newRange.getUpperBound());
+	}
+	
+	@Test
+	void valueRightAboveUpperBound() {
+		double value = 11;
+		Range newRange = Range.expandToInclude(oldRange, value);
+		assertEquals(new Range(5, 11), newRange);
+		assertEquals(5, newRange.getLowerBound());
+		assertEquals(value, newRange.getUpperBound());
+	}
+	
+	@Test
+	void valueRightUnderLowerBound() {
+		double value = 4;
+		Range newRange = Range.expandToInclude(oldRange, value);
+		assertEquals(new Range(4, 10), newRange);
+		assertEquals(value, newRange.getLowerBound());
+		assertEquals(10, newRange.getUpperBound());
+	}
+
+	
+	@Test
+	void valueEqualsLowerBound() {
+	    double value = 5;
+	    Range newRange = Range.expandToInclude(oldRange, value);
+	    assertEquals(new Range(5, 10), newRange);
+	    assertEquals(5, newRange.getLowerBound());
+		assertEquals(10, newRange.getUpperBound());
+	}
+
+	@Test
+	void valueEqualsUpperBound() {
+	    double value = 10;
+	    Range newRange = Range.expandToInclude(oldRange, value);
+	    assertEquals(new Range(5, 10), newRange);
+	    assertEquals(5, oldRange.getLowerBound());
+		assertEquals(10, oldRange.getUpperBound());
+	}
+	
+	@Test
+	void valueIsNegative() {
+		double value = -5;
+		Range newRange = Range.expandToInclude(oldRange, value);
+		assertEquals(new Range(-5, 10), newRange);
+		assertEquals(value, newRange.getLowerBound());
+		assertEquals(10, newRange.getUpperBound());	
 	}
 
 }

@@ -12,5 +12,21 @@ public class RangeHashCodeTest {
         Range r = new Range(0.0, 1.0);
         assertNotNull( r.hashCode() );
     }
+    
+    @Test
+    void testHashCodeSame() {
+    	Range r = new Range(1, 2);
+    	Range r2 = new Range(1, 2);
+    	
+    	assertEquals(r.hashCode(), r2.hashCode());
+    }
+    
+    @Test
+    void testHashCodeNotSame() {
+    	Range r = new Range(1, 2);
+    	Range r2 = new Range(1, 5);
+    	
+    	assertNotEquals(r.hashCode(), r2.hashCode());
+    }
 
 }
