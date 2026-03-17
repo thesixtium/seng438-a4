@@ -8,19 +8,27 @@ import org.junit.jupiter.api.Test;
 public class DataUtilitiesEqual {
 
 	@Test
-	void testAisNull() {
+	void testAandBisNull() {
         double [][] a = null;
         double [][] b = null;
 
-        assertEquals( true, DataUtilities.equal( a, b ) );
+        assertTrue(DataUtilities.equal( a, b ) );
     }
+	
+	@Test
+	void testAisNull() {
+		double [][] a = null;
+		double [][] b = { { 1.0 } };
+
+        assertFalse(DataUtilities.equal(a, b));
+	}
 
 	@Test
 	void testBisNull() {
         double [][] a = { { 1.0 } };
         double [][] b = null;
 
-        assertEquals( false, DataUtilities.equal( a, b ) );
+        assertFalse(DataUtilities.equal(a, b));
     }
 
 	@Test
@@ -28,24 +36,48 @@ public class DataUtilitiesEqual {
         double [][] a = { { 1.0 } };
         double [][] b = { { 1.0 }, { 2.0 } };
 
-        assertEquals( false, DataUtilities.equal( a, b ) );
+        assertFalse(DataUtilities.equal( a, b ) );
     }
+	
+	@Test
+	void testDifferentInnerLengths() {
+		double [][] a = { { 1.0, 5.0, 7.0 } };
+        double [][] b = { { 1.0 } };
+
+        assertFalse(DataUtilities.equal(a, b));
+	}
 
 	@Test
 	void testSameArray() {
         double [][] a = { { 1.0 }, { 2.0 } };
         double [][] b = { { 1.0 }, { 2.0 } };
 
-        assertEquals( true, DataUtilities.equal( a, b ) );
+        assertTrue(DataUtilities.equal( a, b ) );
     }
+	
+	@Test
+	void testSameInnerArray() {
+		double [][] a = { { 1.0, 2.0 }, { 3.0, 6.0 } };
+        double [][] b = { { 1.0, 2.0 }, { 3.0, 6.0 } };
+
+        assertTrue(DataUtilities.equal( a, b ) );
+	}
 
 	@Test
 	void testDifferentArray() {
         double [][] a = { { 1.0 }, { 1.0 } };
         double [][] b = { { 1.0 }, { 2.0 } };
 
-        assertEquals( false, DataUtilities.equal( a, b ) );
+        assertFalse(DataUtilities.equal( a, b ) );
     }
+	
+	@Test
+	void testDifferentInnerArray() {
+		double [][] a = { { 1.0, 4.0 } };
+        double [][] b = { { 1.0, 5.0 } };
+
+        assertFalse(DataUtilities.equal( a, b ) );
+	}
 
 	
 }
