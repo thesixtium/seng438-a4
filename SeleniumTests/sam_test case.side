@@ -1,0 +1,302 @@
+{
+  "id": "bf3b7720-2de1-4118-a9a6-4a4bde81713f",
+  "version": "2.0",
+  "name": "438",
+  "url": "https://www.walmart.ca",
+  "tests": [{
+    "id": "7b2876d7-9a8f-4762-a092-794e516cce7c",
+    "name": "search functionality",
+    "commands": [{
+      "id": "3ed61d37-01a2-4758-994e-970c8b05bbb0",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95261452-52c6-4407-b43e-5c988ca2ec85",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-bar", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/span/header/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "330722f0-4782-4efa-b065-fffd1b45d1a1",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "laptop"
+    }, {
+      "id": "a20eb7e6-7e6b-40ba-9759-1d6c0475567b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-bar", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/span/header/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "916fbfe5-b2d5-4b11-9c5e-c95ebd3e896a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-bar", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/span/header/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8b4fe6a6-a34e-4399-9513-04a40f925e12",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "007bc396-3bba-4f53-8f8a-5d03ed199f71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grocery",
+      "targets": [
+        ["linkText=Grocery", "linkText"],
+        ["css=li:nth-child(2) .sub-nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Grocery')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/div/div/section/nav/ul/li[2]/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/cp/grocery/10019?icid=home_page_grocery_grocery_d_128750_UIQ8379D3Q')]", "xpath:href"],
+        ["xpath=//li[2]/section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ce33761-b012-42fe-98b7-13fe69c5010b",
+      "comment": "",
+      "command": "click",
+      "target": "id=home-AdjustableCardCarousel-heropov2-intl-ad-wrapper",
+      "targets": [
+        ["id=home-AdjustableCardCarousel-heropov2-intl-ad-wrapper", "id"],
+        ["css=#home-AdjustableCardCarousel-heropov2-intl-ad-wrapper", "css:finder"],
+        ["xpath=//div[@id='home-AdjustableCardCarousel-heropov2-intl-ad-wrapper']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[2]/div/div/div/div/div/div/ul/li[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "66299b7e-5921-4046-9069-8c2c9d418669",
+    "name": "category",
+    "commands": [{
+      "id": "932ce789-0de4-4dbf-9dfa-e0a5384be57f",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "862493c2-0074-4ab8-8c13-ab0994bea8ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1105x1345",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c987c44-e461-412a-9615-bfe00059d5ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=linkcard-Shop-AdjustableCardCarousel-contentZone11",
+      "targets": [
+        ["id=linkcard-Shop-AdjustableCardCarousel-contentZone11", "id"],
+        ["css=.flex:nth-child(1) > .card-wrapper #linkcard-Shop-AdjustableCardCarousel-contentZone11", "css:finder"],
+        ["xpath=//a[@id='linkcard-Shop-AdjustableCardCarousel-contentZone11']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[2]/div/div/div/div/div/div/ul/li/div/div/section/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/en/shop/rollbacks-and-more/6000205319047?icid=home_page_other_rollbacks_n_more_patio_d_176690_RXEX8F5TBX')])[2]", "xpath:href"],
+        ["xpath=//section/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59b74cc5-94c9-4741-b5a5-dd83807da344",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=linkcard-Shop-AdjustableCardCarousel-contentZone11",
+      "targets": [
+        ["id=linkcard-Shop-AdjustableCardCarousel-contentZone11", "id"],
+        ["css=.flex:nth-child(1) > .card-wrapper #linkcard-Shop-AdjustableCardCarousel-contentZone11", "css:finder"],
+        ["xpath=//a[@id='linkcard-Shop-AdjustableCardCarousel-contentZone11']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[2]/div/div/div/div/div/div/ul/li/div/div/section/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/en/shop/rollbacks-and-more/6000205319047?icid=home_page_other_rollbacks_n_more_patio_d_176690_RXEX8F5TBX')])[2]", "xpath:href"],
+        ["xpath=//section/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cff91e72-38ca-497c-b42f-216842ad6e8f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=linkcard-Shop-AdjustableCardCarousel-contentZone11",
+      "targets": [
+        ["id=linkcard-Shop-AdjustableCardCarousel-contentZone11", "id"],
+        ["css=.flex:nth-child(1) > .card-wrapper #linkcard-Shop-AdjustableCardCarousel-contentZone11", "css:finder"],
+        ["xpath=//a[@id='linkcard-Shop-AdjustableCardCarousel-contentZone11']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontentredesign']/div/div[2]/div/div[2]/div/div/div/div/div/div/ul/li/div/div/section/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/en/shop/rollbacks-and-more/6000205319047?icid=home_page_other_rollbacks_n_more_patio_d_176690_RXEX8F5TBX')])[2]", "xpath:href"],
+        ["xpath=//section/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2341dffe-7846-4cd9-92c8-15f7ecd32ad5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flyer",
+      "targets": [
+        ["linkText=Flyer", "linkText"],
+        ["css=li:nth-child(1) .sub-nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Flyer')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/div/div/section/nav/ul/li/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/flyer?icid=home_page_other_weekly_flyer_d_128753_7Y5EU5KV4E')]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "57e32850-6732-402a-b585-80459d0c3f20",
+    "name": "adding to cartfrom flyer",
+    "commands": [{
+      "id": "dfe93e6d-af83-4a24-ac86-cbd1ad1ecdc6",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "074473b2-1631-49c4-9bb2-0d34f8743be0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1105x1345",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc2c1ca9-f1c2-4eb9-b830-f83924f4ef75",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flyer",
+      "targets": [
+        ["linkText=Flyer", "linkText"],
+        ["css=li:nth-child(1) .sub-nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Flyer')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/div/div/section/nav/ul/li/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/flyer?icid=home_page_other_weekly_flyer_d_128753_7Y5EU5KV4E')]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c84e5e0-b7e3-4067-93bd-6a9737240abb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90eeeb2-24d0-49c9-9e5a-0885b3cad5c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=sfml-flyer-image:nth-child(1) .item-overlay:nth-child(10)",
+      "targets": [
+        ["css=sfml-flyer-image:nth-child(1) .item-overlay:nth-child(10)", "css:finder"],
+        ["xpath=//button[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e00a43d4-1b77-47cf-a6bb-45808fbc8f4e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8907645-b999-4758-991d-4388b4e6b646",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "314b9b28-efcf-4301-8375-13eb76eb98bb",
+      "comment": "",
+      "command": "click",
+      "target": "id=flipp-add-to-cart",
+      "targets": [
+        ["id=flipp-add-to-cart", "id"],
+        ["css=#flipp-add-to-cart", "css:finder"],
+        ["xpath=//button[@id='flipp-add-to-cart']", "xpath:attributes"],
+        ["xpath=//flipp-add-to-cart-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc470f3-6133-4bd6-b458-58bbf87e24c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=flipp-add-to-cart",
+      "targets": [
+        ["id=flipp-add-to-cart", "id"],
+        ["css=#flipp-add-to-cart", "css:finder"],
+        ["xpath=//button[@id='flipp-add-to-cart']", "xpath:attributes"],
+        ["xpath=//flipp-add-to-cart-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "013abc30-cb0b-4078-8201-59cf694ceb9e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd67446-2cc0-4dd4-9f69-e9e7efea56db",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart-button-header",
+      "targets": [
+        ["id=cart-button-header", "id"],
+        ["css=#cart-button-header", "css:finder"],
+        ["xpath=//button[@id='cart-button-header']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li[4]/div/div/button", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "61179cd1-3fa5-4db4-bcb5-7e3a91e4fd42",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b2876d7-9a8f-4762-a092-794e516cce7c"]
+  }],
+  "urls": ["https://www.walmart.ca/"],
+  "plugins": []
+}
