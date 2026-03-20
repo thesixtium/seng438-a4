@@ -30,6 +30,7 @@ public class TwoArgRangeShiftTest {
 
     assertEquals(1.0, shifted.getLowerBound(), 1e-9);
     assertEquals(5.0, shifted.getUpperBound(), 1e-9);
+    
 
   }
 }
