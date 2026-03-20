@@ -1,0 +1,308 @@
+{
+  "id": "0ccd939c-ea5f-4f34-aba1-e8f24a980581",
+  "version": "2.0",
+  "name": "LAB-04-438",
+  "url": "https://www.canadiantire.ca",
+  "tests": [{
+    "id": "495f1f04-a0e7-403f-9b99-59101646b95d",
+    "name": "Search",
+    "commands": [{
+      "id": "a6ed9caf-8514-4010-93da-dac486271bf1",
+      "comment": "",
+      "command": "open",
+      "target": "/en.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9b24780-cb3d-4e40-9626-9e48f375100e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "732x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06669212-0234-474b-beac-bb4610150481",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nl-col-md-5 img",
+      "targets": [
+        ["css=.nl-col-md-5 img", "css:finder"],
+        ["xpath=//img[@alt='Triangle Credit Card Exclusive. Collect 30x total CT Money on March 6. Learn More.']", "xpath:img"],
+        ["xpath=//div[@id='container-93e5813bdc']/div/header/div/div/div/div[12]/div/div/a/div[2]/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f512a1-1451-4f5c-9d1a-5d10b8bdcb2e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nl-col-md-5 img",
+      "targets": [
+        ["css=.nl-col-md-5 img", "css:finder"],
+        ["xpath=//img[@alt='Triangle Credit Card Exclusive. Collect 30x total CT Money on March 6. Learn More.']", "xpath:img"],
+        ["xpath=//div[@id='container-93e5813bdc']/div/header/div/div/div/div[12]/div/div/a/div[2]/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04641550-067e-45fa-b222-6df70394a8a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,414)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d38b4ab1-7413-41ad-97d1-6bdaf02b5b0c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,683.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78e95fec-2608-48c2-bf04-4dcf417f8858",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1128.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d002b45-d240-41aa-9b2b-29d7bb182f41",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1484.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81ab4977-f9bf-445a-a307-d669df6dae48",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5beca78e-d81e-41eb-95c0-560f8aafc38e",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-1",
+      "targets": [
+        ["id=search-input-1", "id"],
+        ["css=#search-input-1", "css:finder"],
+        ["xpath=//input[@id='search-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='container-93e5813bdc']/div/header/div/div/div/div[6]/div[2]/div/div/div[2]/div/span/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79b4e35-7a04-4012-ba47-77ee770a7017",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input-0",
+      "targets": [
+        ["id=search-input-0", "id"],
+        ["css=#search-input-0", "css:finder"],
+        ["xpath=//input[@id='search-input-0']", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-search-bar']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "coffee grinder"
+    }, {
+      "id": "bfbc3ba6-3d10-4026-a6f9-ca0a4bf77bfd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id-search-input-0",
+      "targets": [],
+      "value": "coffee grinder\\n"
+    }, {
+      "id": "caad38a4-c929-493c-adf6-e436af72319f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input-0",
+      "targets": [
+        ["id=search-input-0", "id"],
+        ["css=#search-input-0", "css:finder"],
+        ["xpath=//input[@id='search-input-0']", "xpath:attributes"],
+        ["xpath=//div[@id='mobile-search-bar']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7f013e42-2b3b-45c1-bac3-481650c212fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=img:nth-child(2)",
+      "targets": [
+        ["css=img:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='Triangle Credit Card Exclusive. Collect 30x total CT Money on March 6. Learn More.']", "xpath:img"],
+        ["xpath=//div[@id='container-677dc26d29']/div/header/div/div/div/div[12]/div/div/a/div[2]/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49cc4c17-4557-4610-b894-803c86d613ef",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,33.33333206176758)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ff114f9-80c2-4188-9a52-48f7d58329eb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=img:nth-child(2)",
+      "targets": [
+        ["css=img:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='Triangle Credit Card Exclusive. Collect 30x total CT Money on March 6. Learn More.']", "xpath:img"],
+        ["xpath=//div[@id='container-677dc26d29']/div/header/div/div/div/div[12]/div/div/a/div[2]/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34a6d1e4-bba5-4193-9365-726fcaac8f91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,243.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6343b4d-eca1-4d44-9099-6e938adebe45",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,558)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d119dad-6b63-46f1-8069-f1dfe8088e75",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,718.6666870117188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8568bf3-b979-4728-b2df-fdf1a01ce0f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\30 430435P .nl-product-card__primary-details .nl-button",
+      "targets": [
+        ["css=#\\30 430435P .nl-product-card__primary-details .nl-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//li[@id='0430435P']/a/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "715ddcb2-5ade-458f-a1da-ea1b4d1eb9af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1068)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2163d82-505b-449a-9b54-4b084e0f1d45",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1d7e1712-b49b-48a4-8431-f044fb459590",
+    "name": "Adding to the cart",
+    "commands": [{
+      "id": "abd635d5-5229-41b7-ae82-2c74c63e5e12",
+      "comment": "",
+      "command": "open",
+      "target": "/en.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3a85937-f9cb-4833-9469-b5aae0268b25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "732x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fa07eae-f010-4105-81c9-37598bf82be7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c07131ff-90a7-44d8-a5f3-0385ee7673b3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,290)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "535980e2-f8c5-4483-bfbc-6defd057725b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,536)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f5af297-6fff-49f5-9d7c-350caa076abd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,534.6666870117188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49add393-4502-4c56-aba1-a83429697f73",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coffee Makers",
+      "targets": [
+        ["linkText=Coffee Makers", "linkText"],
+        ["css=.nl-button:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Coffee Makers')]", "xpath:link"],
+        ["xpath=//div[@id='buttons-inner-container-208634962']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/cat/home/appliances/kitchen-appliances/coffee-makers-DC0000632.html')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Coffee Makers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b142c7e-425f-459f-826d-8a0bbd1ffc26",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input-1",
+      "targets": [
+        ["id=search-input-1", "id"],
+        ["css=#search-input-1", "css:finder"],
+        ["xpath=//input[@id='search-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='container-d84d14d26d']/div/header/div/div/div/div[6]/div[2]/div/div/div[2]/div/span/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3da80cfd-e777-42e2-80c8-3ac1ecc34ae6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mobile-search-bar #close-btn use",
+      "targets": [
+        ["css=#mobile-search-bar #close-btn use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3423a76-7c75-4012-bce2-6a8904dbb057",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "62e9c36a-5854-479a-ac9b-a7a66a3453d0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["495f1f04-a0e7-403f-9b99-59101646b95d"]
+  }],
+  "urls": ["https://www.canadiantire.ca/"],
+  "plugins": []
+}
