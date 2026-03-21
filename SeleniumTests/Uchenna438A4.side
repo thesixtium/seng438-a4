@@ -1,0 +1,319 @@
+{
+  "id": "e17cbb45-a816-426e-b489-598945df5bdd",
+  "version": "2.0",
+  "name": "Uchenna438A4",
+  "url": "https://www.walmart.ca",
+  "tests": [{
+    "id": "8644aefe-a628-4c4b-8b93-0bb6cb123e6a",
+    "name": "Reach Flash Deals",
+    "commands": [{
+      "id": "28a8d6b7-23f4-4401-acf8-0e115efb9c16",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c0d8162-0fff-4e1d-8d9e-a803718c121e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1293x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15100590-45ac-4334-bd01-98a428e1bbe6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.db-hdkp:nth-child(2) > .flex",
+      "targets": [
+        ["css=.db-hdkp:nth-child(2) > .flex", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/header/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/my-items')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad97a0c-8779-44ac-9334-dade692e10fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nowrap:nth-child(1) > .b",
+      "targets": [
+        ["css=.nowrap:nth-child(1) > .b", "css:finder"],
+        ["xpath=//div[@id='__next']/div/span/div/section/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bfbdee8-a587-4544-afd4-34cf6c45f9a3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ae0adf2-a261-40dc-82f9-43e6d098b96f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flash Deals",
+      "targets": [
+        ["linkText=Flash Deals", "linkText"],
+        ["css=.list:nth-child(1) > section > .no-underline", "css:finder"],
+        ["xpath=//a[contains(text(),'Flash Deals')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/div/section/div/div/section/ul/li/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/shop/flash-deals/1984137688763?facet=special_offers%3AReduced+Price&icid=home_page_other_flash_deals_d_131693_N3AR22BERO')]", "xpath:href"],
+        ["xpath=//section/ul/li/section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flash Deals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b515861-ec3f-46b1-9a0b-c84a20d7b49b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1399.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4eb4813e-869f-44fa-b9f6-0fcde6ccde46",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4a761f1a-88df-4e9b-8bd8-e1bd35419944",
+    "name": "Verify elements present on Easter",
+    "commands": [{
+      "id": "798d5a06-3d8f-4cd3-8bba-ebbd1699ca0a",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "573088e9-3890-4001-8efd-9368afad38b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1293x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "966e4d9d-2287-472e-959a-0b6f89057d2b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,112.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fc4b817-6a23-4bd0-8a2a-a62754fba3d7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Easter",
+      "targets": [
+        ["linkText=Easter", "linkText"],
+        ["css=li:nth-child(5) .no-underline", "css:finder"],
+        ["xpath=//a[contains(text(),'Easter')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/div/div/section/nav/ul/li[5]/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/cp/gifts-holidays/easter/6000197172380?icid=home_page_other_easter_d_174928_1K65Y2PIPA')]", "xpath:href"],
+        ["xpath=//li[5]/section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Easter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a8a8e9c-ce5f-403e-8410-ae09a6eb5c19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Easter",
+      "targets": [
+        ["linkText=Easter", "linkText"],
+        ["css=li:nth-child(5) .no-underline", "css:finder"],
+        ["xpath=//a[contains(text(),'Easter')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/span/div/div/section/nav/ul/li[5]/section/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.ca/en/cp/gifts-holidays/easter/6000197172380?icid=home_page_other_easter_d_174928_1K65Y2PIPA')]", "xpath:href"],
+        ["xpath=//li[5]/section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Easter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd743142-a68c-4ee8-bac4-6dcc8dee7624",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,633.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b002352b-fbef-4398-929c-d887d12d86e5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#\\35 56b6a09-6e8d-4814-9bf8-a5c9ddb62116 .flex:nth-child(3) > .sans-serif > .w-100",
+      "targets": [
+        ["css=#\\35 56b6a09-6e8d-4814-9bf8-a5c9ddb62116 .flex:nth-child(3) > .sans-serif > .w-100", "css:finder"],
+        ["xpath=//div[@id='556b6a09-6e8d-4814-9bf8-a5c9ddb62116']/section/section/div[2]/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/ip/Way-to-Celebrate-Easter-Polyester-7-inch-Yellow-Duck-Plush-Toys-Yellow/7EECHAN3BE4N?athAsset=eyJhdGhjcGlkIjoiN0VFQ0hBTjNCRTROIiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiJJdGVtQ2Fyb3VzZWwiLCJhdGhyayI6MC4wfQ==&athena=true')]", "xpath:href"],
+        ["xpath=//div[3]/section/section/div[2]/ul/li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2ce87b-149b-43e6-bb55-fc09aedd8482",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.mv4-l #GridColumn-0 .h-auto",
+      "targets": [
+        ["css=.mv4-l #GridColumn-0 .h-auto", "css:finder"],
+        ["xpath=//img[@alt='Shop Easter meals']", "xpath:img"],
+        ["xpath=//div[@id='GridColumn-0']/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a841bd6-d04a-4304-9a89-6c9ab8e1ee59",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#\\34 566b144-3232-4429-bc8f-c762063e448f .flex:nth-child(3) > .sans-serif > .w-100",
+      "targets": [
+        ["css=#\\34 566b144-3232-4429-bc8f-c762063e448f .flex:nth-child(3) > .sans-serif > .w-100", "css:finder"],
+        ["xpath=//div[@id='4566b144-3232-4429-bc8f-c762063e448f']/section/section/div[2]/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/ip/Canadian-Snack-Care-Package-Snack-Box-with-Cookies-Toffee-Sour-Candy-Gummies-Crackers-and-Many-More-Gift-Basket-of-Delicious-Sweets/0Y76NQGXDVIX?athAsset=eyJhdGhjcGlkIjoiMFk3Nk5RR1hEVklYIiwiYXRoc3RpZCI6IkNTMDIwIiwiYXRoYW5jaWQiOiJJdGVtQ2Fyb3VzZWwiLCJhdGhyayI6MC4wfQ==&athena=true')]", "xpath:href"],
+        ["xpath=//div[6]/section/section/div[2]/ul/li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0c0c320-465e-436c-a193-09cd4c22be5a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b0f5ca9f-7654-44af-813e-b581ec575126",
+    "name": "Change pickup location",
+    "commands": [{
+      "id": "61aee051-1d18-4eea-8778-37a8f3dc8961",
+      "comment": "",
+      "command": "open",
+      "target": "/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7858de9-8827-4c8c-ae15-76700aab5a83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1293x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f05514d-8638-4939-8c1d-4e39bc97036f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content-start",
+      "targets": [
+        ["css=.content-start", "css:finder"],
+        ["xpath=//div[@id='intent-banner-section']/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6acadbb7-70fe-4ba5-a204-31e6c7d5e4a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#intent-id1 .v-btm",
+      "targets": [
+        ["css=#intent-id1 .v-btm", "css:finder"],
+        ["xpath=//img[@alt='pickup']", "xpath:img"],
+        ["xpath=//button[@id='intent-id1']/div/img", "xpath:idRelative"],
+        ["xpath=//li/button/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b915419-77ec-461b-a23d-b8af7d05a158",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w_jaCq > .f7",
+      "targets": [
+        ["css=.w_jaCq > .f7", "css:finder"],
+        ["xpath=//div[@id='gic-wrapper']/div/div[2]/section/div/div/div/div/div/div/div/div/button/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3abf2ca8-2966-47d6-811b-36c810f66c8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pt3:nth-child(10) .b",
+      "targets": [
+        ["css=.pt3:nth-child(10) .b", "css:finder"],
+        ["xpath=//div[9]/div/div/label/span/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9a7de25-57d2-49df-8063-1810b32830c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w_fNeq",
+      "targets": [
+        ["css=.w_fNeq", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b804ad2-dc3c-4b38-818f-ff53df7d7c86",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=div:nth-child(2) > .dn",
+      "targets": [
+        ["css=div:nth-child(2) > .dn", "css:finder"],
+        ["xpath=//div[@id='gic-wrapper']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "333a0dca-7b95-4cb5-a64b-27baf7a2546c",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=#home-AdjustableCardCarousel-heropov2-intl-ad-wrapper #linkcard-Shop-AdjustableCardCarousel-contentZone11",
+      "targets": [
+        ["css=#home-AdjustableCardCarousel-heropov2-intl-ad-wrapper #linkcard-Shop-AdjustableCardCarousel-contentZone11", "css:finder"],
+        ["xpath=(//a[@id='linkcard-Shop-AdjustableCardCarousel-contentZone11'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='home-AdjustableCardCarousel-heropov2-intl-ad-wrapper']/div/div/section/section/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.walmart.ca/dad/trk/v1/ck?encrypted=eyJraWQiOiJyc2FfdjEiLCJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAtMjU2In0.dg8_h_ZTc47DPYyJzYmToU-th3OBE6Axb2j-ua9hgRaGNZL_Bke_vYEfVakbdGs4MZJIcLJMqnxXV8qODk5A9fhbH0UwIuKIGzCXJFMkLKyo42_e4vF20-aQXBH1goNWwu5VVOwl9m0j3rx_IUoOfyvSbvSO2YaPX-wyWo1qHNbiUYvaMm39yk3_4S0BExH3AqxnrspAUOT18ODh13nhJuqrl5c4Ct69fpJbNT9WjDNzE0oW_6jzkdBca7egXR6JIsg0EAv8cIgmdsovBJngbUq482pbzKweRz8PmMTlWm-n1p825dh9D8wKJVm4AtxAAUM8_Fmsg4OnZXOz7owlbA.B4jq0MT_9oN8UMIa.rWmLq8UrIvgbBO0xuTNXlWV9DSu7FhM_C0j03xgV7brPG3gWvWf6MrOwOa7JoNYYI3Y_BvbnztwbiYAcPj-uDQ0bRSEh1QYhps7yMg6ud9eNAAyil4nRcXb9uRmTc8aRRX3HdP23WKF_QNxw4-WyVVI6WTxvN8cgSEQfCR_B7wBXIZssYV6XcYBMVY7gzjWKm5YX3NKJxYXxukwuyymNVoCaRT69DvEMjaD0arh4yOHVviabtfn7rJ8mT5aKQfZHcd9NyjqV00c9UoyJ-pQCo-gAgEVW1WWKAJ_aWSkFezcuN1VeptYkSqwPUAPyyIFquqnWvcz5OaMvtvu1X07xV1gN6VzpbHr7ZoJR03xAlA34vHHGxV8lHwcRosxC0TW1kHY5o3du7a34CIDXvHVL5vu731zhCm67NYGkbyJj318fXe6PTX2EGWb_WWsKjKEBIv8OWSN8pQ_c2y8Da5pAxT-MykfzFL3rroC2FqIQ0W-35qvrL9gq-ZdnHDA-Vwf6RZm00mtjxi53C4l8qdCaVkKiRU5dpmqdcF-X6E3_w9beYXSQY3tB8BhKDUyio5uk15uH3sfwafRAYzTF1JyaZjVH7OZhXfkgHXEEPPZtMWT2Z1jePfnrMb_ckPZqhge2d0_bQVgib6r-.hQRsRaM_1hJGI3bWtWW8JA')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/section/section/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15449bcd-ad71-4967-b793-006e0581f3d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.min-vh-100",
+      "targets": [
+        ["css=.min-vh-100", "css:finder"],
+        ["xpath=//div[@id='__next']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6494d1-186d-4b42-b9d4-884b162f5ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content-start",
+      "targets": [
+        ["css=.content-start", "css:finder"],
+        ["xpath=//div[@id='intent-banner-section']/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5b8837cc-96a2-4a58-86c4-560e6c06613a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.walmart.ca/"],
+  "plugins": []
+}
