@@ -15,7 +15,12 @@ public class RangeConstrainTest{
 	static void setUp() {
         exampleRange = new Range(5, 13);
     }
-	
+	@Test
+void constructorInvalidRangeThrowsException() {
+    assertThrows(IllegalArgumentException.class, () -> {
+        new Range(13, 5);
+    });
+}
 	@Test
 	void constrainAtLowerBound() {
 		assertEquals(5.0, exampleRange.constrain(5), 1e-9,
