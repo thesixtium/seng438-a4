@@ -22,6 +22,16 @@ public class TwoArgRangeShiftTest {
     assertEquals(3.0, shifted.getLowerBound(), 1e-9);
     assertEquals(7.0, shifted.getUpperBound(), 1e-9);
   }
+@Test
+public void testShiftWithNoZeroCrossing_valueIsZero() {
+    // Test when value is exactly zero and delta is positive
+    double result1 = Range.shiftWithNoZeroCrossing(0.0, 5.0);
+    assertEquals(5.0, result1, 0.0001);
+
+    // Test when value is exactly zero and delta is negative
+    double result2 = Range.shiftWithNoZeroCrossing(0.0, -3.0);
+    assertEquals(-3.0, result2, 0.0001);
+}
 
   @Test
   void testShiftNegativeDelta_NoZeroCrossing() {
